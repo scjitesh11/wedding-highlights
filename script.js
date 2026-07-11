@@ -28,13 +28,13 @@ musicBtn.onclick = function () {
 
         music.play();
 
-        musicBtn.innerHTML = "⏸ Pause Music";
+        musicBtn.innerHTML = "⏸";
 
     } else {
 
         music.pause();
 
-        musicBtn.innerHTML = "🎵 Play Music";
+        musicBtn.innerHTML = "🎵";
 
     }
 
