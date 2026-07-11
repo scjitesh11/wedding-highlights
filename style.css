@@ -108,3 +108,55 @@ button:hover{
     transition:.3s;
 
 }
+
+/* ===== Our Story ===== */
+
+.story{
+
+    min-height:100vh;
+
+    padding:70px 20px;
+
+    background:linear-gradient(180deg,#fff7f9,#ffffff);
+
+    text-align:center;
+
+}
+
+.story h2{
+
+    color:#e91e63;
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+}
+
+.story p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#444;
+
+}
+
+.story img{
+
+    width:90%;
+
+    max-width:450px;
+
+    margin-top:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
