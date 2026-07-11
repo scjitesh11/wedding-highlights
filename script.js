@@ -8,8 +8,12 @@ CONFIG.groom + " ❤️ " + CONFIG.bride;
 document.getElementById("date").innerHTML =
 CONFIG.weddingDate;
 
-
+const music = document.getElementById("bgMusic");
 document.getElementById("watchBtn").onclick = function () {
+
+    if (music.paused) {
+        music.play();
+    }
 
     document.getElementById("story").scrollIntoView({
 
@@ -18,4 +22,3 @@ document.getElementById("watchBtn").onclick = function () {
     });
 
 };
-
