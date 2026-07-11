@@ -6,7 +6,7 @@ document.getElementById("coupleName").innerHTML =
 CONFIG.groom + " ❤️ " + CONFIG.bride;
 
 document.getElementById("date").innerHTML =
-"📅 " + CONFIG.weddingDate;
+CONFIG.weddingDate;
 
 
 document.getElementById("watchBtn").onclick = function () {
