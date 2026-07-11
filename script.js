@@ -9,10 +9,13 @@ document.getElementById("date").innerHTML =
 "📅 " + CONFIG.weddingDate;
 
 
-// Watch Button
+document.getElementById("watchBtn").onclick = function () {
 
-document.getElementById("watchBtn").onclick = function(){
+    document.getElementById("story").scrollIntoView({
 
-    alert("Our Story Coming Soon ❤️");
+        behavior: "smooth"
+
+    });
 
 };
+
