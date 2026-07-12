@@ -22,3 +22,16 @@ document.getElementById("watchBtn").onclick = function () {
     });
 
 };
+function openImage(src){
+
+    document.getElementById("popup").style.display = "flex";
+
+    document.getElementById("popupImage").src = src;
+
+}
+
+function closeImage(){
+
+    document.getElementById("popup").style.display = "none";
+
+}
