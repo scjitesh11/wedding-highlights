@@ -160,4 +160,56 @@ button:hover{
     box-shadow:0 15px 40px rgba(0,0,0,.25);
 
 }
+/* ===== Wedding Journey ===== */
 
+.journey{
+
+    padding:70px 20px;
+
+    background:#ffffff;
+
+    text-align:center;
+
+}
+
+.journey h2{
+
+    color:#e91e63;
+
+    font-size:34px;
+
+    margin-bottom:40px;
+
+}
+
+.photoStory{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+    align-items:center;
+
+}
+
+.photoStory img{
+
+    width:100%;
+
+    max-width:450px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+    transition:.4s;
+
+}
+
+.photoStory img:hover{
+
+    transform:scale(1.02);
+
+}
