@@ -24,9 +24,11 @@ document.getElementById("watchBtn").onclick = function () {
 };
 function openImage(src){
 
-    document.getElementById("popup").style.display = "flex";
+    const popup = document.getElementById("popup");
+    const popupImage = document.getElementById("popupImage");
 
-    document.getElementById("popupImage").src = src;
+    popup.style.display = "flex";
+    popupImage.src = src;
 
 }
 
